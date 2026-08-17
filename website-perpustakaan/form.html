@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Pendaftran | Langit Baca</title>
+</head>
+<body>
+	<h1>Pendaftaran</h1>
+	<form action="/register" method="POST">
+		<label>Nama Lengkap<input type="text" name="nama" required></label><br>
+		<label>Email<input type="email" name="email" required></label><br>
+		<label>Password<input type="password" name="password" required></label><br>
+		<label>Kota
+			<select name="kota">
+				<option>Jakarta</option>
+				<option>Bandung</option>
+				<option>Yogyakarta</option>
+				<option>Palembang</option>
+			</select>
+		</label><br>
+		<label>Foto Profil<input type="file" name="foto" required></label><br>
+		<label>Alasan Bergabung<textarea name="alasan" required></textarea></label><br>
+		<button type="reset">Reset</button><br>
+		<button type="submit">kirim</button>
+	</form>
+</body>
+</html>
