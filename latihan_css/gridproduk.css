@@ -1,0 +1,14 @@
+section {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+
+}
+div {
+	padding: 20px;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 12px;
+}
